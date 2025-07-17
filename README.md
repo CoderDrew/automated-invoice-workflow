@@ -126,3 +126,18 @@ You are an expert extraction algorithm.
 Only extract relevant information from the text.  
 If you do not know the value of an attribute asked to extract, you may omit the attribute's value.
 
+🧩 Tech Stack
+🛠️ n8n – Workflow automation
+
+🧠 OpenAI GPT-4 – Data extraction + email generation
+
+📂 Google Drive – Invoice upload source
+
+📄 Google Sheets – Invoice database
+
+📧 Gmail – Notification delivery
+
+📬 Sample Output
+Subject: Invoice Received: INV-20394 from ACME Corp
+Email Body:
+An invoice (INV-20394) was received from ACME Corp on July 12, 2025, in the amount of $2,400. It is due by July 31, 2025. The billing contact is jane@acme.com.
